@@ -11,7 +11,7 @@ This Arduino project allows you to read sensor data (humidity and temperature) f
 
 ## Installation and Setup
 
-1. **Arduino Code**: Upload the Arduino code (`arduino_sensor_data_display.ino`) to your Arduino board. Make sure to install the required libraries (e.g., DHT sensor library) using the Arduino Library Manager.
+1. **Arduino Code**: Upload the Arduino code (`sensor.ino`) to your Arduino board. Make sure to install the required libraries (e.g., DHT sensor library) using the Arduino Library Manager.
 
 2. **Configure Network**: Adjust the network configuration (IP address, MAC address, etc.) in the Arduino code to match your local network settings.
 
@@ -27,8 +27,8 @@ This Arduino project allows you to read sensor data (humidity and temperature) f
 
 ## File Structure
 
-- `arduino_sensor_data_display.ino`: Arduino code for reading sensor data and serving a web page.
-- `index.html`: HTML file for the local website displaying the sensor data.
+- `sensor.ino`: Arduino code for reading sensor data and serving a web page.
+- `screen.html`: HTML file for the local website displaying the sensor data.
 - `README.md`: This README file.
 
 ## Dependencies
@@ -36,10 +36,6 @@ This Arduino project allows you to read sensor data (humidity and temperature) f
 - Arduino IDE (https://www.arduino.cc/en/software)
 - DHT sensor library (for the DHT22 sensor)
 - Appropriate Ethernet or Wi-Fi libraries for network communication (e.g., Ethernet.h or ESP8266WiFi.h)
-
-## Contributing
-
-If you'd like to contribute to this project, please open an issue or create a pull request with your improvements.
 
 ## License
 
@@ -49,7 +45,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - This project was inspired by [Arduino official documentation](https://www.arduino.cc/en/Tutorial/BasicWebServer) on creating a basic web server.
 
-## Contact
-
-For questions or feedback, please contact [Your Name](mailto:your.email@example.com).
 
