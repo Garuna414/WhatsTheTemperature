@@ -2,6 +2,15 @@
 
 This Arduino project allows you to read sensor data (humidity and temperature) from a DHT sensor and display it on a local website served by the Arduino. The project consists of Arduino code to read the sensor data and a simple HTML/JavaScript frontend for displaying the data in real-time.
 
+## Overview
+- [Hardware Requirements](#hardware-requirements)
+- [Installation and Setup](#installation-and-setup)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Dependencies](#dependencies)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
 ## Hardware Requirements
 
 - Arduino board (e.g., Arduino Uno)
